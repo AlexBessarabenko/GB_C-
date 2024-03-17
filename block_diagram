@@ -1,0 +1,17 @@
+@startuml
+
+title GB Filter Strings Algorithm
+
+start
+:Enter an array of strings;
+:Create a new array;
+while (Loop through elements of the original array)
+:Check string length;
+if (Length <= 3) then (true)
+:Add string to a new array;
+endif
+endwhile
+:Output a new array;
+stop
+
+@enduml
